@@ -65,9 +65,67 @@
 	height: 400px;
 	position: relative;
 	margin-top: 2%;
+	color: white;
+	padding: 10px;
 }
 
 .description h1 {
 	width: 100%;
 	color: white;
+}
+
+.description .social [class^="icon-"] {
+  display: inline-block;
+  color: silver;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 15px;
+  background: white;
+  border-radius: 30%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+  
+}
+
+.user {
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.user img {
+	border-radius: 50%;
+}
+
+.user p {
+	width: 250px;
+	font-family: calibri;
+	font-size: 20px;
+	position: absolute;
+	top: 215px;
+	left: 90px;
+}
+
+.subscribe {
+	
+}
+
+.subscribe button {
+	float: right;
+	background: red;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 23px;
+	position: absolute;
+	left: 450px;
+	top: 210px;
+}
+
+.descriptionchannel {
+	margin: 0 auto;
+	width: 80%;
+	color: white;
+	padding: 15px;
 }
