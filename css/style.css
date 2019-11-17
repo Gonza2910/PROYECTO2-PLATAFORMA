@@ -36,7 +36,6 @@
 
 .video h1 {
 	font-size: 30px;
-
 }
 
 .videocontainer {
@@ -128,4 +127,22 @@
 	width: 80%;
 	color: white;
 	padding: 15px;
+}
+#containerVideos {
+	width: 100%;
+	height: 1008px;
+}
+#containerVideos img {
+	position: relative;
+}
+#containerVideos .videosCont {
+	position: absolute;
+	top: 90px;
+	left: 20px;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.vid {
+	padding: 10px;
 }
